@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wil Stead">
+    <meta name="description" content="Welcome to Liam's website!">
+    <title>Liam's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,MONO@-15..0,300..1000,0..1,0..1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+    <link href="css/framework.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="site.webmanifest" rel="manifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <meta name="apple-mobile-web-app-title" content="LiamStead.com">
+    <meta name="application-name" content="LiamStead.com">
+    <meta name="msapplication-TileColor" content="#00a6ff">
+    <meta name="theme-color" content="#00a6ff">
+</head>
+
+<body>
+    <div class="framework">
+        <div class="appbar primary top">
+            <div class="toolbar gap-2">
+                <a class="btn btn-icon navy-icon" href="/" title="Home">
+                    <tf-icon style="color:white">home</tf-icon>
+                </a>
+                <a class="btn btn-icon red-icon" href="mailto:liamdstead@gmail.com" title="Send me an email">
+                    <tf-icon style="color:white">email</tf-icon>
+                </a>
+                <a class="btn btn-icon aqua-icon" href="https://www.amazon.com/hz/wishlist/ls/2JBUWK4YU5FPZ" target="_blank" title="My Amazon Wishlist">
+                    <tf-icon style="color:white">star</tf-icon>
+                </a>
+                <div class="heading">
+                    <h1 class="title">Liam Stead</h1>
+                    <h2 class="subtitle">Adventures & Family</h2>
+                </div>
+                <button id="light-dark-toggle" class="btn d-print-none btn-icon primary">
+                    <tf-icon id="light-dark-toggle-icon">light_mode</tf-icon>
+                </button>
+            </div>
+        </div>
+        
+        <main id="main-container" class="container mt-3">
+            <div id="bg-container"></div>
+            <div class="container-fixed">
+                <h1>Oops!</h1>
+                <h2>There's no page here.</h2>
+                <p>Try going back to my <a href="/">homepage</a>.</p>
+            </div>
+            
+            <footer class="site-footer">
+                <span>Crafted with love by</span>
+                <span><a href="https://williamstead.com/">Wil Stead</a></span>
+                <span>(a.k.a. Da-da)</span>
+            </footer>
+        </main>
+
+        <div id="scroll-to-top" class="scroll-to-top hidden">
+            <span class="btn btn-icon primary filled">
+                <tf-icon>expand_less</tf-icon>
+            </span>
+        </div>
+    </div>
+
+    <script src="site.js"></script>
+</body>
+
+</html>
